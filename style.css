@@ -26,7 +26,7 @@
     text-decoration: none;
     font-family: 'M PLUS 1p', sans-serif;
     font-size: 36px;
-    color: #818181;
+    color: gainsboro;
     display: block;
     transition: 0.3s;
     cursor: url('cursor1.png') 25 30, pointer;
@@ -42,7 +42,7 @@
     top: 20px;
     right: 45px;
     font-size: 60px;
-    color: white;
+    color: gainsboro;
 }
 
 @media screen and (max-height: 450px) {
@@ -147,7 +147,7 @@ body {
 
 
 #image_p {
-    width: 80vh;
+    width: 82vh;
     height: 80vh;
     margin left: auto;
     margin right: auto;
@@ -175,7 +175,6 @@ body {
 }
 
 #about_p h2 {
-    margin-top: 3vh;
     margin-left: 2vh;
     font-size: 1em;
     font-family: 'M PLUS 1p', sans-serif;
@@ -183,6 +182,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
 
 }
 
