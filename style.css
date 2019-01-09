@@ -131,14 +131,14 @@ body {
 
 }
 
-#row {
+.row {
     flex-direction: row;
     display: flex;
 }
 
 
 
-#row a {
+.row a {
     flex-basis: 1;
     width: 50%;
     margin: 2 2;
@@ -146,7 +146,7 @@ body {
     height: 100%;
 }
 
-#row img:hover {
+.row img:hover {
     filter: grayscale(0);
 
 }
@@ -164,11 +164,11 @@ body {
         font-size: 2em;
     }
 
-    #row {
+    .row {
         flex-direction: column;
     }
 
-    #row a {
+    .row a {
         width: 80%;
     }
 }
