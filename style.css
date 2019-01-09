@@ -139,7 +139,6 @@ body {
 
 
 .row a {
-    flex-basis: 1px;
     width: 50%;
     margin: 2px 2px;
     padding: 2em;
