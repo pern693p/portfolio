@@ -206,29 +206,69 @@ body {
 /*Grundlæggende html site*/
 
 .themes {
-    margin: 0, auto;
+    margin: 0 50px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 
+}
+
+.themes h1 {
+    text-align: left;
+    font-family: 'M PLUS 1p',
+        sans-serif;
 
 
 }
 
-.theme_pic {
-    width: 100vh;
-    height: 100vh;
+.themes p {
+    font-family: "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+
+#row1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#row2 {
+    display: flex;
+    flex-direction: row;
 }
 
 #theme1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
+    width: 50%;
+    margin-right: 30px;
+    text-align: justify;
 }
 
-#theme2 {}
+#theme2 {
+    width: 50%;
+    margin-left: 30px;
+    text-align: justify;
+}
 
-#theme3 {}
+#theme3 {
+    width: 50%;
+    margin-right: 30px;
+    text-align: justify;
+}
 
-#theme4 {}
+#theme4 {
+    width: 50%;
+    margin-left: 30px;
+    text-align: justify;
+}
+
+#theme4 p {
+    margin-top: 60px;
+}
+
+.themes a {
+    color: black;
+    cursor: url('cursor1.png') 25 30, pointer;
+}
+
+.themes a:visited {
+    color: gainsboro;
+}
